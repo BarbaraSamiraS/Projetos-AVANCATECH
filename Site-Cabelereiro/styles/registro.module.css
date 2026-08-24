@@ -1,0 +1,24 @@
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.right {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 20px;
+  background: #a67c52;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}

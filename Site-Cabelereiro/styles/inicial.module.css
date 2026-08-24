@@ -1,0 +1,82 @@
+.container {
+  padding: 20px;
+  background: #eae5df;
+  min-height: 100vh;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  gap: 20px;
+}
+
+.left {
+}
+
+.center {
+}
+
+.right {
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  background: #a67c52;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
+
+
+/* CARD DE SERVIÇO */
+.serviceCard {
+  padding: 20px;
+  border-radius: 20px;
+  background: #f5f2ee;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.serviceCard:hover {
+  transform: scale(1.03);
+}
+
+/* SELECIONADO */
+.selectedService {
+  background: #d6c1a8;
+  border: 2px solid #a67c52;
+}
+
+/* HORÁRIOS */
+.timeButton {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #e8ded2;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.timeButton:hover {
+  background: #d6c1a8;
+}
+
+/* HORÁRIO SELECIONADO */
+.selectedTime {
+  background: #a67c52;
+  color: white;
+}
+
+/* GRID */
+.servicesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
