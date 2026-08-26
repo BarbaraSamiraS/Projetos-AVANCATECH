@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="caixa">
+        <img id="imgLogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFy5eM8vPm0bkB8K7NtcBjrh2NUgwB1h4mOpLBBDzvhg&s=10" alt="">
+        <input id="campo" type="text" placeholder="Digite o nome do seu Pokemon">
+        <div id="pokemon">
+            <img id="img" src="" alt="">
+            <h1><span id="Nome"></span></h1>
+            <p>Peso: <span id="Peso"></span> - Altura: <span id="Altura"></span></p>
+            <p class="tipo"><span id="Tipo"></span></p>
+            <h2>Habilidades</h2>
+            <div class="habilidades">
+                <span id="Habilidade1"></span>
+                <span id="Habilidade2"></span>
+            </div>
+            
+        </div>
+        <button onclick="buscaPokemon()">Buscar</button>
+    </div>
+
+    <script src="AtividadeFetch.js"></script>
+</body>
+</html>

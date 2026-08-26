@@ -1,0 +1,92 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.caixa {
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#imgLogo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#campo {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pokemon {
+    text-align: center;
+    margin-bottom: 20px;
+    visibility: hidden;
+}
+
+#pokemon img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    background-color: #fffefe;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cfcfcf;
+}
+
+button:hover {
+    background-color: #d1d1d1;
+}
+
+.tipo {
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    font-size: 11px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.habilidades span {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 20px;
+    background-color: #1e2121;
+    color: white;
+}
